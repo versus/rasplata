@@ -1,0 +1,3134 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (4.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (71.9ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:20:05) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:21:17) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (undefined local variable or method `title' for #<ActionView::Base:0xb68323e8>) on line #1 of app/views/hello/index.html.haml:
+1: %strong= title
+
+    app/views/hello/index.html.haml:1:in `_run_haml_app47views47hello47index46html46haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:22:06) [GET]
+Rendering hello/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:22:30) [GET]
+Rendering hello/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:22:55) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:24:33) [GET]
+Rendering hello/index
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 13:27:31) [GET]
+Rendering hello/index
+Completed in 76ms (View: 74, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 16:18:45) [GET]
+Rendering hello/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:18:53) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Inconsistent indentation: 6 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #6 of app/views/hello/index.html.haml:
+3: %html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "ru", :lang => "ru"}
+4:     %meta{'http-equiv' => 'Content-Type', :content => 'text/html'}/
+5:     %body
+6:       :javascript
+7:         alert('Hello world!');
+8:       #body
+9:         %strong= @title
+
+    app/views/hello/index.html.haml:6
+    haml (2.2.13) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.13) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.13) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.13) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (54.9ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:19:29) [GET]
+Rendering hello/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:22:12) [GET]
+Rendering hello/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:23:24) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Can't run Markdown filter; required 'rdiscount' or 'peg_markdown' or 'maruku' or 'bluecloth', but none were found) on line #10 of app/views/hello/index.html.haml:
+7:             alert('Hello world!');
+8:         #body
+9:             %strong= @title
+10:         :markdown
+11:             Test Name
+12:             =========
+13:             *rasp*
+
+    app/views/hello/index.html.haml:10
+    haml (2.2.13) lib/haml/filters.rb:161:in `resolve_lazy_requires'
+    haml (2.2.13) lib/haml/filters.rb:79:in `internal_compile'
+    haml (2.2.13) lib/haml/precompiler.rb:452:in `close_filtered'
+    haml (2.2.13) lib/haml/precompiler.rb:413:in `send'
+    haml (2.2.13) lib/haml/precompiler.rb:413:in `close'
+    haml (2.2.13) lib/haml/precompiler.rb:198:in `process_indent'
+    haml (2.2.13) lib/haml/precompiler.rb:198:in `times'
+    haml (2.2.13) lib/haml/precompiler.rb:198:in `process_indent'
+    haml (2.2.13) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:24:00) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Filter "bluecloth" is not defined.) on line #10 of app/views/hello/index.html.haml:
+7:             alert('Hello world!');
+8:         #body
+9:             %strong= @title
+10:         :bluecloth
+11:             Test Name
+12:             =========
+13:             *rasp*
+
+    app/views/hello/index.html.haml:10
+    haml (2.2.13) lib/haml/precompiler.rb:874:in `start_filtered'
+    haml (2.2.13) lib/haml/precompiler.rb:261:in `process_line'
+    haml (2.2.13) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:24:20) [GET]
+Rendering hello/index
+Completed in 81ms (View: 80, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:25:08) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Can't run Textile filter; required file 'redcloth' not found) on line #10 of app/views/hello/index.html.haml:
+7:             alert('Hello world!');
+8:         #body
+9:             %strong= @title
+10:         :textile
+11:             Test Name
+12:             =========
+13:             *rasp*
+
+    app/views/hello/index.html.haml:10
+    haml (2.2.13) lib/haml/filters.rb:159:in `resolve_lazy_requires'
+    haml (2.2.13) lib/haml/filters.rb:79:in `internal_compile'
+    haml (2.2.13) lib/haml/precompiler.rb:452:in `close_filtered'
+    haml (2.2.13) lib/haml/precompiler.rb:413:in `send'
+    haml (2.2.13) lib/haml/precompiler.rb:413:in `close'
+    haml (2.2.13) lib/haml/precompiler.rb:198:in `process_indent'
+    haml (2.2.13) lib/haml/precompiler.rb:198:in `times'
+    haml (2.2.13) lib/haml/precompiler.rb:198:in `process_indent'
+    haml (2.2.13) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (54.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:40:02) [GET]
+Rendering hello/index
+Completed in 49ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:40:52) [GET]
+Rendering hello/index
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:45:40) [GET]
+Rendering hello/index
+Completed in 48ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:47:06) [GET]
+Rendering hello/index
+Completed in 49ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 17:47:16) [GET]
+Rendering hello/index
+Completed in 48ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:03:39) [GET]
+Rendering hello/index
+Completed in 119ms (View: 117, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:04:01) [GET]
+Rendering hello/index
+Completed in 52ms (View: 50, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:06:42) [GET]
+Rendering hello/index
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:07:54) [GET]
+Rendering hello/index
+Completed in 55ms (View: 54, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:08:32) [GET]
+Rendering hello/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:09:42) [GET]
+Rendering hello/index
+Completed in 55ms (View: 53, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:10:58) [GET]
+Rendering hello/index
+Completed in 123ms (View: 121, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:13:04) [GET]
+Rendering hello/index
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:13:27) [GET]
+Rendering hello/index
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:13:51) [GET]
+Rendering hello/index
+Completed in 53ms (View: 51, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:14:12) [GET]
+Rendering hello/index
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:14:42) [GET]
+Rendering hello/index
+Completed in 56ms (View: 54, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:15:56) [GET]
+Rendering hello/index
+Completed in 118ms (View: 117, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:17:11) [GET]
+Rendering hello/index
+Completed in 57ms (View: 55, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:17:36) [GET]
+Rendering hello/index
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:18:28) [GET]
+Rendering hello/index
+Completed in 55ms (View: 54, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:18:44) [GET]
+Rendering hello/index
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:19:57) [GET]
+Rendering hello/index
+Completed in 56ms (View: 54, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:20:17) [GET]
+Rendering hello/index
+Completed in 121ms (View: 120, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:21:49) [GET]
+Rendering hello/index
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:22:51) [GET]
+Rendering hello/index
+Completed in 58ms (View: 57, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:23:06) [GET]
+Rendering hello/index
+Completed in 56ms (View: 54, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:23:27) [GET]
+Rendering hello/index
+Completed in 57ms (View: 55, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:24:42) [GET]
+Rendering hello/index
+Completed in 57ms (View: 55, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:24:56) [GET]
+Rendering hello/index
+Completed in 121ms (View: 119, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:31:47) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #51 of app/views/hello/index.html.haml:
+48:             [msn]:    http://search.msn.com/    "MSN Search"
+49: 
+50: %table(border="1")
+51:   %tr
+52:     %td
+53:       test cell
+54:     %td
+
+    app/views/hello/index.html.haml:51
+    haml (2.2.13) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.13) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.13) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.13) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (56.3ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:32:03) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #51 of app/views/hello/index.html.haml:
+48:             [msn]:    http://search.msn.com/    "MSN Search"
+49: 
+50: %table
+51:   %tr
+52:     %td
+53:       test cell
+54:     %td
+
+    app/views/hello/index.html.haml:51
+    haml (2.2.13) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.13) lib/haml/precompiler.rb:733:in `render_tag'
+    haml (2.2.13) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.13) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:33:41) [GET]
+Rendering hello/index
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:34:03) [GET]
+Rendering hello/index
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:34:56) [GET]
+Rendering hello/index
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:40:45) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';', expecting '}'
+/home/versus/project/invoice/app/views/hello/index.html.haml:52: syntax error, unexpected '}', expecting kEND
+...y_temp));}\n", 0, false);end;};
+                              ^
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1..10).eath do |aa|{;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  #{aa}
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;};
+
+
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:62:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';', expecting '}'
+/home/versus/project/invoice/app/views/hello/index.html.haml:52: syntax error, unexpected '}', expecting kEND
+...y_temp));}\n", 0, false);end;};
+                              ^) on line #13 of app/views/hello/index.html.haml:
+10:         #body
+11:             %strong= @title
+12:         :markdown
+13:             #Test Name#
+14:             [Google]: http://google.com/
+15:             [About]: /about/
+16:             *rasp*
+
+    app/views/hello/index.html.haml:62:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (45.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:42:36) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (undefined method `eath' for 1..10:Range) on line #13 of app/views/hello/index.html.haml:
+10:         #body
+11:             %strong= @title
+12:         :markdown
+13:             #Test Name#
+14:             [Google]: http://google.com/
+15:             [About]: /about/
+16:             *rasp*
+
+    app/views/hello/index.html.haml:13:in `_run_haml_app47views47hello47index46html46haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (122.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:42:56) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (undefined method `eath' for 1..10:Range) on line #14 of app/views/hello/index.html.haml:
+11:             %strong= @title
+12: 
+13:         :markdown
+14:             #Test Name#
+15:             [Google]: http://google.com/
+16:             [About]: /about/
+17:             *rasp*
+
+    app/views/hello/index.html.haml:14:in `_run_haml_app47views47hello47index46html46haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (46.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:43:28) [GET]
+Rendering hello/index
+Completed in 58ms (View: 57, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:43:59) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1..10).each aaa;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  aaa
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);
+
+end;
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:61:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end) on line #61 of app/views/hello/index.html.haml:
+58:             test cell
+59:         %td
+60:             test cell 2
+
+    app/views/hello/index.html.haml:61:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:44:24) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false);(1...10).each aaa;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<p>#{_hamlout.adjust_tabs(1); haml_temp = aaa
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</p>\n", 0, false);
+
+end;
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:61:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end) on line #61 of app/views/hello/index.html.haml:
+58:             test cell
+59:         %td
+60:             test cell 2
+
+    app/views/hello/index.html.haml:61:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (45.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:44:47) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';'
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false);(1...10).each |aaa|;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<p>#{_hamlout.adjust_tabs(1); haml_temp = aaa
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</p>\n", 0, false);
+
+end;
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:61:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';'
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end) on line #13 of app/views/hello/index.html.haml:
+10:         #body
+11:             %strong= @title
+12:         :markdown
+13:             #Test Name#
+14:             [Google]: http://google.com/
+15:             [About]: /about/
+16:             *rasp*
+
+    app/views/hello/index.html.haml:61:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:45:21) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';'
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1...10).each |aaa|;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<p>#{_hamlout.adjust_tabs(1); haml_temp = aaa
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</p>\n", 0, false);
+
+end;
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:61:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';'
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end) on line #13 of app/views/hello/index.html.haml:
+10:         #body
+11:             %strong= @title
+12:         :markdown
+13:             #Test Name#
+14:             [Google]: http://google.com/
+15:             [About]: /about/
+16:             *rasp*
+
+    app/views/hello/index.html.haml:61:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (45.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:45:22) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';'
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1...10).each |aaa|;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<p>#{_hamlout.adjust_tabs(1); haml_temp = aaa
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</p>\n", 0, false);
+
+end;
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:61:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:13: syntax error, unexpected ';'
+/home/versus/project/invoice/app/views/hello/index.html.haml:61: syntax error, unexpected kENSURE, expecting $end) on line #13 of app/views/hello/index.html.haml:
+10:         #body
+11:             %strong= @title
+12:         :markdown
+13:             #Test Name#
+14:             [Google]: http://google.com/
+15:             [About]: /about/
+16:             *rasp*
+
+    app/views/hello/index.html.haml:61:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:45:34) [GET]
+Rendering hello/index
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:46:06) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #52 of app/views/hello/index.html.haml:
+49: 
+50: 
+51: - (1...10).each do |aa|
+52:   %p= aa
+53: %table{:border=>"1"}
+54:     %tr
+55:         %td
+
+    app/views/hello/index.html.haml:52
+    haml (2.2.13) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.13) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.13) lib/haml/precompiler.rb:980:in `block_opened?'
+    haml (2.2.13) lib/haml/precompiler.rb:244:in `process_line'
+    haml (2.2.13) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.13) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.13) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (128.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:46:20) [GET]
+Rendering hello/index
+Completed in 62ms (View: 61, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:46:41) [GET]
+Rendering hello/index
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:47:05) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:60: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1...10).each do |aa|;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("", 0, false);haml_temp =  aa;
+
+_hamlout.push_text("<br />\n", 0, false);end;_hamlout.buffer << _hamlout.format_script_false_false_false_false_false_false_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));_hamlout.push_text("\n", 0, false);end;
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:60:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:60: syntax error, unexpected kENSURE, expecting $end) on line #60 of app/views/hello/index.html.haml:
+57:             test cell
+58:         %td
+59:             test cell 2
+
+    app/views/hello/index.html.haml:60:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (111.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:47:25) [GET]
+Rendering hello/index
+Completed in 62ms (View: 59, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:49:36) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:60: syntax error, unexpected tSTRING_BEG, expecting kEND
+..., 0, false); render :partial 'foo.html.haml';
+                              ^
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1...10).each do |aa|;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  aa
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<br />\n", 0, false);
+end;
+
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n", 0, false); render :partial 'foo.html.haml';
+_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:64:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:60: syntax error, unexpected tSTRING_BEG, expecting kEND
+..., 0, false); render :partial 'foo.html.haml';
+                              ^) on line #60 of app/views/hello/index.html.haml:
+57:             test cell
+58:         %td
+59:             test cell 2
+60: - render :partial 'foo.html.haml'
+
+    app/views/hello/index.html.haml:64:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (45.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:49:57) [GET]
+Rendering hello/index
+ERROR: compiling _run_haml_app47views47hello47index46html46haml RAISED compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:60: syntax error, unexpected tSTRING_BEG, expecting '}'
+...haml_temp =  render :partial 'foo.html.haml'
+                              ^
+Function body:           def _run_haml_app47views47hello47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<?xml version='1.0' encoding='utf-8' ?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='ru' xml:lang='ru' xmlns='http://www.w3.org/1999/xhtml'>\n  <meta content='text/html' http-equiv='Content-Type' />\n  <body>\n    <script type='text/javascript'>\n      //<![CDATA[\n        var i = 12;\n        y = i+2;\n        document.write(y);\n      //]]>\n    </script>\n    <div id='body'>\n      <strong>#{_hamlout.adjust_tabs(4); haml_temp = @title
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</strong>\n    </div>\n", -1, false);
+_hamlout.push_text("    <h1>Test Name</h1>\n    \n    <p><em>rasp</em></p>\n    \n    <ul>\n    <li>123</li>\n    <li>456</li>\n    <li>789</li>\n    </ul>\n    \n    <h2>Antosa</h2>\n    \n    <p>да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)</p>\n    \n    <ol>\n    <li>123454</li>\n    <li>324242</li>\n    <li>32498219</li>\n    </ol>\n    \n    <h3>HELL</h3>\n    \n    <p>test adksljf daslk saldkjf laskdf lksdj f</p>\n    \n    <p>&#8212; is the decimal-encoded equivalent of &mdash;</p>\n    \n    <p><img src=\"https://mail.google.com/mail/images/2/5/logo1.png\" alt=\"Gmail logo\"/><a href=\"http://example.com\">http://example.com</a></p>\n    \n    <table border=\"1\">\n        <tr>\n            <td>Foo</td>\n        </tr>\n    </table>\n    \n    <p>See my <strong><a href=\"/about/\">About</a></strong> page for details.</p>\n    \n    <p>See <strong>google</strong> <a href=\"http://google.com/\">Google</a> for search it</p>\n    \n    <p>I get 10 times more traffic from <a href=\"http://google.com/\">Google</a> than from <a href=\"http://search.yahoo.com/\" title=\"Yahoo Search\">Yahoo</a> or <a href=\"http://search.msn.com/\" title=\"MSN Search\">MSN</a>. My be <a href=\"/about/\">About</a></p>\n  </body>\n</html>\n", -2, false); (1...10).each do |aa|;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  aa
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<br />\n", 0, false);
+end;
+
+
+
+
+
+_hamlout.push_text("<table border='1'>\n  <tr>\n    <td>\n      test cell\n    </td>\n    <td>\n      test cell 2\n    </td>\n  </tr>\n</table>\n#{haml_temp =  render :partial 'foo.html.haml'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/versus/project/invoice/app/views/hello/index.html.haml:64:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.13/lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/versus/project/invoice/app/views/hello/index.html.haml:60: syntax error, unexpected tSTRING_BEG, expecting '}'
+...haml_temp =  render :partial 'foo.html.haml'
+                              ^) on line #60 of app/views/hello/index.html.haml:
+57:             test cell
+58:         %td
+59:             test cell 2
+60: = render :partial 'foo.html.haml'
+
+    app/views/hello/index.html.haml:64:in `compile!'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (120.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:51:32) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Missing template hello/_foo.html.haml in view path app/views) on line #62 of app/views/hello/index.html.haml:
+59:             test cell 2
+60: 
+61: //= render :partial => "sidebar"
+62: = render :partial => 'foo.html.haml'
+
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.13) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/hello/index.html.haml:62:in `_run_haml_app47views47hello47index46html46haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (50.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:52:05) [GET]
+Rendering hello/index
+
+ActionView::TemplateError (Missing template hello/_foo.erb in view path app/views) on line #61 of app/views/hello/index.html.haml:
+58:         %td
+59:             test cell 2
+60: 
+61: = render :partial => 'foo'
+
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.13) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/hello/index.html.haml:61:in `_run_haml_app47views47hello47index46html46haml'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (57.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 18:52:37) [GET]
+Rendering hello/index
+Rendered hello/_foo (1.6ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:07:40) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.8ms)
+Completed in 61ms (View: 59, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:08:21) [GET]
+Rendering hello/index
+Rendered hello/_foo (1.8ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:21:49) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.7ms)
+Completed in 133ms (View: 131, DB: 1) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:45:35) [GET]
+Rendering hello/index
+Rendered hello/_foo (1.7ms)
+Completed in 90ms (View: 88, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:46:26) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.6ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:46:42) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.6ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:46:43) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.6ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:46:43) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.7ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 19:46:44) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-15 23:07:35) [GET]
+
+MissingSourceFile (no such file to load -- prawn):
+  app/controllers/hello_controller.rb:3
+
+Rendered rescues/_trace (104.4ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 23:08:22) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.7ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf (for 127.0.0.1 at 2009-11-15 23:08:27) [GET]
+
+NameError (uninitialized constant HelloController::Prawn):
+  app/controllers/hello_controller.rb:12:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf (for 127.0.0.1 at 2009-11-15 23:17:04) [GET]
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:15:in `getpdf'
+  app/controllers/hello_controller.rb:12:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:13) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:15:in `getpdf'
+  app/controllers/hello_controller.rb:12:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (118.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:57) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:10:in `getpdf'
+  app/controllers/hello_controller.rb:8:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:58) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:10:in `getpdf'
+  app/controllers/hello_controller.rb:8:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:58) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:10:in `getpdf'
+  app/controllers/hello_controller.rb:8:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (117.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:59) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:10:in `getpdf'
+  app/controllers/hello_controller.rb:8:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:59) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:10:in `getpdf'
+  app/controllers/hello_controller.rb:8:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#getpdf to pdf (for 127.0.0.1 at 2009-11-15 23:17:59) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/hello_controller.rb:10:in `getpdf'
+  app/controllers/hello_controller.rb:8:in `getpdf'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (119.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-11-15 23:18:45) [GET]
+Rendering hello/index
+Rendered hello/_foo (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/hello/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-15 23:20:09) [GET]
+
+ActionController::RoutingError (No route matches "/hello/1.pdf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateItems (20091115175957)
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (386.9ms)[0m   [0;1mCREATE TABLE "items" ("id" serial primary key, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (12.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091115175957')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+Migrating to CreateBooks (20091115212520)
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (88.8ms)[0m   [0;1mCREATE TABLE "books" ("id" serial primary key, "title" character varying(255), "author" character varying(255), "description" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091115212520')[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:28:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.6ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Book with ID=1):
+  app/controllers/books_controller.rb:16:in `show'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2009-11-15 23:28:51) [GET]
+  [4;35;1mBook Load (1.3ms)[0m   [0mSELECT * FROM "books" [0m
+Rendering template within layouts/books
+Rendering books/index
+Completed in 29ms (View: 19, DB: 1) | 200 OK [http://127.0.0.1/books/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#new (for 127.0.0.1 at 2009-11-15 23:28:53) [GET]
+Rendering template within layouts/books
+Rendering books/new
+Completed in 98ms (View: 89, DB: 0) | 200 OK [http://127.0.0.1/books/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#create (for 127.0.0.1 at 2009-11-15 23:29:38) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"CsEZqJF1FoFUPjrw2rp9rEUvbLEMmCTW9yCzIUI2W08=", "book"=>{"author"=>"John Will", "title"=>"HabraHabr", "description"=>"dslkfsd lgfsd lfa sdkfj sdk f\r\ngd fg dfgk fd\r\ngdf gj fdgjfdg fkgj s;gk sdf\r\ng\r\nА теперь на русском языке"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "books" ("created_at", "title", "author", "updated_at", "description") VALUES('2009-11-15 21:29:38.182359', E'HabraHabr', E'John Will', '2009-11-15 21:29:38.182359', E'dslkfsd lgfsd lfa sdkfj sdk f
+gd fg dfgk fd
+gdf gj fdgjfdg fkgj s;gk sdf
+g
+А теперь на русском языке') RETURNING "id"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/books/1
+Completed in 21ms (DB: 2) | 302 Found [http://127.0.0.1/books]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show (for 127.0.0.1 at 2009-11-15 23:29:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering template within layouts/books
+Rendering books/show
+Completed in 19ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/books/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2009-11-15 23:29:41) [GET]
+  [4;36;1mBook Load (1.5ms)[0m   [0;1mSELECT * FROM "books" [0m
+Rendering template within layouts/books
+Rendering books/index
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://127.0.0.1/books]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show (for 127.0.0.1 at 2009-11-15 23:29:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering template within layouts/books
+Rendering books/show
+Completed in 16ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/books/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdg (for 127.0.0.1 at 2009-11-15 23:29:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Completed in 10ms (View: 1, DB: 1) | 406 Not Acceptable [http://127.0.0.1/books/1.pdg]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdg (for 127.0.0.1 at 2009-11-15 23:31:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/books_controller.rb:21:in `show'
+  app/controllers/books_controller.rb:18:in `show'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdg (for 127.0.0.1 at 2009-11-15 23:32:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.6ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/books_controller.rb:21:in `show'
+  app/controllers/books_controller.rb:18:in `show'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (63.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdg (for 127.0.0.1 at 2009-11-15 23:32:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/books_controller.rb:21:in `show'
+  app/controllers/books_controller.rb:18:in `show'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (40.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdg (for 127.0.0.1 at 2009-11-15 23:33:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Completed in 13ms (View: 3, DB: 1) | 406 Not Acceptable [http://127.0.0.1/books/1.pdg]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdg (for 127.0.0.1 at 2009-11-15 23:33:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Completed in 11ms (View: 1, DB: 1) | 406 Not Acceptable [http://127.0.0.1/books/1.pdg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:33:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.7ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template books/show.erb in view path app/views):
+  app/controllers/books_controller.rb:21:in `show'
+  app/controllers/books_controller.rb:18:in `show'
+  haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:35:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+
+ActionView::TemplateError (undefined method `size=' for Prawn::Font::AFM< Helvetica: 12 >:Prawn::Font::AFM) on line #2 of app/views/books/show.pdf.prawn:
+1: pdf.font "Helvetica" 
+2: pdf.font.size = 13
+3: pdf.text "Book: #{@book.title}", :size => 16, :style => :bold, :spacing => 4
+4: pdf.text "Author: #{@book.author}", :spacing => 16
+5: pdf.text @book.description
+
+    app/views/books/show.pdf.prawn:2:in `_run_prawn_app47views47books47show46pdf46prawn'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/books_controller.rb:21:in `show'
+    app/controllers/books_controller.rb:18:in `show'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (128.9ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:36:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.6ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+Completed in 428ms (View: 417, DB: 1) | 200 OK [http://127.0.0.1/books/1.pdf]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:38:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (1.6ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+
+ActionView::TemplateError (No such file or directory - DejaVuSans.ttf) on line #1 of app/views/books/show.pdf.prawn:
+1: pdf.font "DejaVuSans.ttf" 
+2: pdf.text "Book: #{@book.title}", :size => 16, :style => :bold, :spacing => 4
+3: pdf.text "Author: #{@book.author}", :spacing => 16
+4: pdf.text @book.description
+
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/./../vendor/ttfunk/lib/ttfunk.rb:11:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/./../vendor/ttfunk/lib/ttfunk.rb:11:in `open'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/./../vendor/ttfunk/lib/ttfunk.rb:11:in `open'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font/ttf.rb:325:in `read_ttf_file'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font/ttf.rb:12:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:215:in `new'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:215:in `load'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:128:in `find_font'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:34:in `font'
+    app/views/books/show.pdf.prawn:1:in `_run_prawn_app47views47books47show46pdf46prawn'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/books_controller.rb:21:in `show'
+    app/controllers/books_controller.rb:18:in `show'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (137.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:38:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.6ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+
+ActionView::TemplateError (DejaVuSans is not a known font.) on line #1 of app/views/books/show.pdf.prawn:
+1: pdf.font "DejaVuSans" 
+2: pdf.text "Book: #{@book.title}", :size => 16, :style => :bold, :spacing => 4
+3: pdf.text "Author: #{@book.author}", :spacing => 16
+4: pdf.text @book.description
+
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font/afm.rb:27:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:218:in `new'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:218:in `load'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:128:in `find_font'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:34:in `font'
+    app/views/books/show.pdf.prawn:1:in `_run_prawn_app47views47books47show46pdf46prawn'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/books_controller.rb:21:in `show'
+    app/controllers/books_controller.rb:18:in `show'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (63.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:41:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+
+ActionView::TemplateError (Bad font family) on line #2 of app/views/books/show.pdf.prawn:
+1: pdf.font "/home/versus/project/invoice/public/images/DejaVuSans.ttf" 
+2: pdf.text "Book: #{@book.title}", :size => 16, :style => :bold, :spacing => 4
+3: pdf.text "Author: #{@book.author}", :spacing => 16
+4: pdf.text @book.description
+
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/document/text.rb:107:in `process_text_options'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/document/text.rb:79:in `text'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/font.rb:95:in `save_font'
+    /usr/lib/ruby/gems/1.8/gems/prawn-core-0.6.2/lib/prawn/document/text.rb:77:in `text'
+    app/views/books/show.pdf.prawn:2:in `_run_prawn_app47views47books47show46pdf46prawn'
+    haml (2.2.13) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/books_controller.rb:21:in `show'
+    app/controllers/books_controller.rb:18:in `show'
+    haml (2.2.13) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (129.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-15 23:47:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (1.4ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+Completed in 146ms (View: 136, DB: 2) | 200 OK [http://127.0.0.1/books/1.pdf]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#show to pdf (for 127.0.0.1 at 2009-11-16 21:58:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering books/show
+Completed in 105ms (View: 95, DB: 1) | 200 OK [http://127.0.0.1/books/1.pdf]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2009-11-16 21:58:38) [GET]
+  [4;36;1mBook Load (1.4ms)[0m   [0;1mSELECT * FROM "books" [0m
+Rendering template within layouts/books
+Rendering books/index
+Completed in 120ms (View: 114, DB: 2) | 200 OK [http://127.0.0.1/books/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing BooksController#index (for 127.0.0.1 at 2009-11-17 15:10:04) [GET]
+  [4;35;1mBook Load (1.2ms)[0m   [0mSELECT * FROM "books" [0m
+Rendering template within layouts/books
+Rendering books/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/books]
+/!\ FAILSAFE /!\  Sat Nov 21 19:41:23 +0200 2009
+  Status: 500 Internal Server Error
+  FATAL:  database "invoice" does not exist
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+/!\ FAILSAFE /!\  Sat Dec 12 19:23:01 +0200 2009
+  Status: 500 Internal Server Error
+  FATAL:  database "invoice" does not exist
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Dec 12 19:23:06 +0200 2009
+  Status: 500 Internal Server Error
+  FATAL:  database "invoice" does not exist
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Dec 12 19:23:10 +0200 2009
+  Status: 500 Internal Server Error
+  FATAL:  database "invoice" does not exist
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:968:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (87.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateItems (20091115175957)
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (74.1ms)[0m   [0;1mCREATE TABLE "items" ("id" serial primary key, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091115175957')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-12 19:25:41) [GET]
+
+NameError (uninitialized constant BooksController):
+  
+
+Rendered rescues/_trace (115.3ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-12 19:25:49) [GET]
+
+NameError (uninitialized constant BooksController):
+  
+
+Rendered rescues/_trace (34.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-12 19:28:06) [GET]
+
+NameError (uninitialized constant BooksController):
+  
+
+Rendered rescues/_trace (34.5ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-12 19:28:10) [GET]
+
+NameError (uninitialized constant BooksController):
+  
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-12 19:28:15) [GET]
+
+ActionController::RoutingError (No route matches "/book/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-12 19:28:18) [GET]
+
+NameError (uninitialized constant BooksController):
+  
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-12-12 19:28:59) [GET]
+Rendering hello/index
+Rendered hello/_foo (19.5ms)
+Completed in 329ms (View: 327, DB: 0) | 200 OK [http://127.0.0.1/hello]
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateItems (20091115175957)
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateItems (20091115175957)
+Migrating to AddAllToItems (20091212174429)
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "items" ADD COLUMN "qty" integer[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mALTER TABLE "items" ALTER COLUMN "qty" SET DEFAULT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mUPDATE "items" SET "qty"=1 WHERE "qty" IS NULL[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mALTER TABLE "items" ALTER "qty" SET NOT NULL[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mALTER TABLE "items" ADD COLUMN "type_item" character varying(255)[0m
+  [4;35;1mSQL (82.4ms)[0m   [0mALTER TABLE "items" ADD COLUMN "desc" text[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mALTER TABLE "items" ADD COLUMN "price" float[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091212174429')[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)

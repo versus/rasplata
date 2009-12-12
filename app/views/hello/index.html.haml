@@ -1,0 +1,68 @@
+!!! XML
+!!!
+%html{html_attrs('ru')}
+    %head
+        %meta{'http-equiv' => 'Content-Type', :content => 'text/html'}
+
+
+    %body
+        :javascript
+            var i = 12;
+            y = i+2;
+            document.write(y);
+        #body
+            %strong= @title
+        :markdown
+            #Test Name#
+            [Google]: http://google.com/
+            [About]: /about/
+            *rasp*
+            * 123
+            * 456
+            * 789
+
+            Antosa
+            ------
+            да, он хороший. и groovy как язык крайне приятственен. но когда я в последний раз смотрел grails, оно тормозило. нет, не так — ТОРМОЗИЛО. может подскажете, есть современные бенчи, такие, чтобы не сферических коней в вакууме мерили? (обленился я, ага)
+            1. 123454
+            2. 324242
+            3. 32498219
+
+            ### HELL ###
+            test adksljf daslk saldkjf laskdf lksdj f
+            
+            &#8212; is the decimal-encoded equivalent of &mdash;
+            
+            ![Gmail logo](https://mail.google.com/mail/images/2/5/logo1.png)<http://example.com>
+
+            <table border="1">
+                <tr>
+                    <td>Foo</td>
+                </tr>
+            </table>
+
+            See my __[About][]__ page for details.
+            
+            See __google__ [Google][] for search it
+
+            I get 10 times more traffic from [Google][] than from [Yahoo][] or [MSN][]. My be [About][]
+
+            [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+            [msn]:    http://search.msn.com/    "MSN Search"
+
+
+- (1...10).each do |aa|
+    = aa
+    %br
+%table{:border=>"1"}
+    %tr
+        %td
+            test cell
+        %td
+            test cell 2
+
+.ffoo
+    .hahaha
+        %p sdjfklasdj las dlkfj saldk sldkjf lsdkaj flad flaskdj f
+
+= render :partial => 'foo'
