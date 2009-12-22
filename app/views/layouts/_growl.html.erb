@@ -1,0 +1,11 @@
+<%-unless flash.empty? %>
+    <script type="text/javascript">
+      $(function() {
+        <%-flash.each do |message| %>
+          $.jGrowl(<%=message[1].to_json() %>, {theme: '<%=message[0]%>'});
+        <%-end %>
+      });
+    </script>
+<%- end %>
+
+

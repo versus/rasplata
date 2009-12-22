@@ -6,9 +6,10 @@
     %meta{ :name => "author", :content => "Valentin V. Nastenko" }
     %meta{ :name => "keywords", :content => "invoice task project manager" }
     %meta{ :name => "description", :content => "Система управления проектами и платежами" }
-    = javascript_include_tag %w(jquery jquery.ui application)
-    = stylesheet_link_tag %w(main)
+    = javascript_include_tag %w(jquery jquery.ui application jquery.jgrowl jquery.form jquery.timers)
+    = stylesheet_link_tag %w(main jquery.jgrowl jquery.ui)
     = yield :head
+    = render :partial => 'layouts/growl'
   %body
     #container
       #header
@@ -24,11 +25,7 @@
       -else
         = link_to "My Account", account_path  
         |
-        = link_to "Logout", user_session_path, :method => :delete, :confirm => "Are you sure you want to logout?" 
-       
- 
-      %p 
-        = flash[:notice] 
+        = link_to "Logout", "/logout", :method => :delete, :confirm => "Are you sure you want to logout?"  
  
       #application
         = yield
