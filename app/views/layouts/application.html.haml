@@ -1,0 +1,34 @@
+!!!
+%html{html_attrs('ru')}
+  %head
+    %meta{"http-equiv" => 'Content-Type', :content => 'text/html;charset=utf-8'}
+    %title= h(@title || "Rasplata.biz")
+    %meta{ :name => "author", :content => "Valentin V. Nastenko" }
+    %meta{ :name => "keywords", :content => "invoice task project manager" }
+    %meta{ :name => "description", :content => "Система управления проектами и платежами" }
+    = javascript_include_tag %w(jquery jquery.ui application)
+    = stylesheet_link_tag %w(main)
+    = yield :head
+  %body
+    #container
+      #header
+        %h1#logo= link_to "Rasplata.biz", root_path, :title => "Home"
+        = pluralize User.logged_in.count, "user"
+        currently logged in
+        %br
+      %br
+      %br
+      -if !current_user 
+        = link_to "Register", new_account_path %> |
+        = link_to "Log In", new_user_session_path %> |
+      - else
+        = link_to "My Account", account_path %> |
+        = link_to "Logout", user_session_path, :method => :delete, :confirm => "Are you sure you want to logout?" 
+       
+ 
+      %p = flash[:notice] 
+ 
+      #application
+        = yield
+ 
+      #footer

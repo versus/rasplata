@@ -1,2 +1,9 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+if (typeof(console) == 'undefined') {
+  console = {
+    log: function(message) { /*alert(message);*/ }
+  };
+}
+jQuery.fn.fadeToggle = function(speed, easing, callback) { 
+   return this.animate({opacity: 'toggle'}, speed, easing, callback); 
+}; 
+

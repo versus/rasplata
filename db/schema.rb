@@ -9,7 +9,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091212174429) do
+ActiveRecord::Schema.define(:version => 20091222093219) do
+
+  create_table "comments", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "project_id"
+    t.integer  "task_id"
+    t.text     "desc"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "items", :force => true do |t|
     t.datetime "created_at"
@@ -18,6 +27,50 @@ ActiveRecord::Schema.define(:version => 20091212174429) do
     t.string   "type_item"
     t.text     "desc"
     t.float    "price"
+  end
+
+  create_table "projects", :force => true do |t|
+    t.string   "name"
+    t.text     "desc"
+    t.decimal  "summ"
+    t.decimal  "rate"
+    t.integer  "user_id"
+    t.datetime "deleted_at"
+    t.integer  "status"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tasks", :force => true do |t|
+    t.datetime "deleted_at"
+    t.string   "title"
+    t.text     "desc"
+    t.integer  "user_id"
+    t.integer  "project_id"
+    t.decimal  "rate"
+    t.decimal  "summ"
+    t.boolean  "status"
+    t.boolean  "billable"
+    t.integer  "timer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email",                              :null => false
+    t.string   "crypted_password",                   :null => false
+    t.string   "password_salt",                      :null => false
+    t.string   "persistence_token",                  :null => false
+    t.string   "single_access_token",                :null => false
+    t.string   "perishable_token",                   :null => false
+    t.integer  "login_count",         :default => 0, :null => false
+    t.datetime "current_login_at"
+    t.datetime "last_login_at"
+    t.string   "current_login_ip"
+    t.string   "last_login_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
