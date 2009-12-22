@@ -13,20 +13,22 @@
     #container
       #header
         %h1#logo= link_to "Rasplata.biz", root_path, :title => "Home"
-        = pluralize User.logged_in.count, "user"
-        currently logged in
         %br
       %br
       %br
       -if !current_user 
-        = link_to "Register", new_account_path %> |
-        = link_to "Log In", new_user_session_path %> |
-      - else
-        = link_to "My Account", account_path %> |
+        = link_to "Register", new_account_path  
+        |
+        = link_to "Log In", new_user_session_path  
+        |
+      -else
+        = link_to "My Account", account_path  
+        |
         = link_to "Logout", user_session_path, :method => :delete, :confirm => "Are you sure you want to logout?" 
        
  
-      %p = flash[:notice] 
+      %p 
+        = flash[:notice] 
  
       #application
         = yield
