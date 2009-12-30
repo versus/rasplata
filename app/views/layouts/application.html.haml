@@ -7,27 +7,63 @@
     %meta{ :name => "keywords", :content => "invoice task project manager" }
     %meta{ :name => "description", :content => "Система управления проектами и платежами" }
     = javascript_include_tag %w(jquery jquery.ui application jquery.jgrowl jquery.form jquery.timers)
-    = stylesheet_link_tag %w(main jquery.jgrowl jquery.ui)
+    = stylesheet_link_tag %w(main jquery.jgrowl jquery.ui screen formtastic formtastic_changes)
     = yield :head
     = render :partial => 'layouts/growl'
   %body
-    #container
-      #header
-        %h1#logo= link_to "Rasplata.biz", root_path, :title => "Home"
-        %br
-      %br
-      %br
-      -if !current_user 
-        = link_to "Register", new_account_path  
+    %div{:id=>"header", :class=> "clearfix"}  
+      %h1
+        %a{:title=>"Главная", :href=>"/"}Расплата
+
+      -if @current_user
+        %ul{ :id => "session"}
+          %li{ :id=>"user"}
+            Signed in as versus197
+          %li{:id=>"destroy_session"}
+            %a{:title=>"Выход", :href=>"/logout"}Выход
+        %ul#navigation
+          %li#errors.errors
+            %a{:href=>"#"}Errors
+          %li#projects.projects
+            %a{:href=>"#"}Project
+          %li#users.users
+            %a{:href=>"#"}Users
+          %li#profile.profile
+            %a{:href=>"#"}Profile
+    
+    #content.clearfix
+      #flash
+        #flash_error
+          %pPlease login to see that page
+
+      #main.clearfix
+        .main_top.clearfix
+          .main_top_content.clearfix
+            %h2 
+              = yield :title
+          .main_content_inner
+            %div{:style=> "margin:0;padding:0;display:inline"}
+              = yield
+        .bottom_right_shadow
+
+    #footer.clearfix
+      .service
+        rasplata is a service of © 2009-2010
+
+      %span.vercial_line
         |
-        = link_to "Log In", new_user_session_path  
+        %a{:href=>"#"}Profile
+      %span.vercial_line
         |
-      -else
-        = link_to "My Account", account_path  
+        %a{:href=>"#"}Profile
+      %span.vercial_line
         |
-        = link_to "Logout", "/logout", :method => :delete, :confirm => "Are you sure you want to logout?"  
- 
-      #application
-        = yield
- 
-      #footer
+        %a{:href=>"#"}Profile
+      %span.vercial_line
+        |
+        %a{:href=>"#"}Profile
+      %span.vercial_line
+        |
+        %a{:href=>"#"}Profile
+
+

@@ -1,0 +1,251 @@
+
+#lighthouse_search label {
+  font-size: 1.5em;
+  font-weight: bold;  
+  color: #476c81;
+  vertical-align: middle;
+  margin: 0 4px 0 0;
+}
+
+#lighthouse_search input[type="text"] {
+  width: 200px;
+  vertical-align: middle;  
+}
+
+
+
+
+
+
+
+
+
+
+#lighthouse_lightbox_header {
+  background: #fff;
+  padding: 12px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius:  5px;
+  -moz-border-radius-topright:     5px;
+  -moz-border-radius-topleft:      5px;
+}
+
+/*************************************
+ +Lighthouse New Form
+*************************************/
+
+#lighthouse_new {
+  background: #fff url(/images/lighthouse_blue_fade.png) top left repeat-x;
+  padding: 20px 15px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  xborder-bottom: 4px solid #cccccc;  
+}
+
+
+.lighthouse_search {
+
+}
+
+
+
+h3.lighthouse_form_title {
+  color: #2f2f2f;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#lighthouse_new_form *{vertical-align: middle;}
+
+#lighthouse_new_form label {
+  color: #8f8f8f;
+  font-size: 1.2em;
+}
+
+#lighthouse_new_form input[type="text"] {padding: 4px 2px; width: 55%;}
+
+
+/* LIGHTBOX */
+
+#lighthouse_lightbox {
+  xwidth: 800px;
+}
+
+#lighthouse_lightbox_header form label {display: none;}  
+
+#lighthouse_lightbox_header form input[type="text"] {
+  width: 250px;
+  padding: 5px 3px;
+}
+
+#lighthouse_lightbox_header form {
+  float: left;
+}
+
+a#lighthouse_lightbox_close {
+  float: right;
+  display: block;
+  width: 80px;
+  height: 22px;
+  background: #fff url(/images/lightbox_close.png) 0 0 no-repeat;
+  text-indent: -5000px;
+}
+
+a#lighthouse_lightbox_close:hover {background: #fff url(/images/lightbox_close.png) 0 -22px no-repeat;}
+
+#lighthouse_lightbox_tickets {
+  background: #f6f8fa url(/images/blue_fade.png) top left repeat-x;
+  border-top: 1px solid #cfd6dd;
+  border-bottom: 1px solid #cfd6dd;
+  padding: 12px;
+  height: 400px;
+  overflow: auto;
+}  
+
+#lighthouse_lightbox_tickets h6 {
+  color: #5c5c5c;
+  margin: 0 0 .5em;
+  font-size: 1.5em;
+}
+
+#lighthouse_lightbox_tickets table tr {border-bottom: 1px solid #e0e2e4;}
+
+#lighthouse_lightbox_tickets .lh_ticket_number {width: 55px; padding: 5px 10px 8px 0;}
+#lighthouse_lightbox_tickets .lh_ticket_name   {width: 80%;}
+#lighthouse_lightbox_tickets .lh_use_ticket    {width: 20%; text-align: right;}
+
+#lighthouse_lightbox_tickets .lh_ticket_name a:link {text-decoration: none;}
+
+
+  
+#lighthouse_lightbox_tickets .lh_ticket_number span {
+  color: #fff;
+  background: #89c7e8;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 2px 4px;
+  font-size: .8em;
+}
+
+.lh_ticket_name del { color: #99aab0; }
+.lh_ticket_name del a  {
+  color: #99aab0;
+  text-decoration: none;
+}
+  
+#lighthouse_lightbox_footer {
+  height: 20px;
+  width: 100%;
+  background: #fff;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius:  5px;
+  -moz-border-radius-bottomright:     5px;
+  -moz-border-radius-bottomleft:      5px;
+}
+
+#configuration {
+  padding-top: 24px;
+  padding-bottom: 17px;
+}
+
+#configuration h1 {
+  font-size: 1.6em;
+  padding-bottom: 10px;
+}
+
+#configuration p {
+  font-size: 1.3em;
+}
+
+
+
+/***********************************
++ Hoptoad redesign styles. All 
+  above are from the older version
+***********************************/
+
+#lighthouse_big_logo {
+  width: 240px;
+  height: 32px;
+  background: transparent url(/images/lighthouse-biglogo.png) top left no-repeat;
+  margin: 0 0 5px 0;
+}
+
+#lighthouse_big_logo_checked {
+    width: 240px;
+    height: 32px;
+    background: transparent url(/images/lighthouse-biglogo-checked.png) top left no-repeat;
+    margin: 0 0 5px 0;
+  }
+
+
+
+#lighthouse_new_form div {
+
+}
+
+.main_sidebar #lighthouse_new_form form {
+    background: transparent url(/images/sidebar_ridge.png) top left repeat-x;
+    padding: 10px 0 0 0;
+    margin: 10px 0 0 0;
+}
+
+.main_sidebar #lighthouse_new_form form label {
+  font-size: 1em;
+  color: #232323;
+  font-weight: bold;
+}
+
+.main_sidebar #lighthouse_new_form form input[type="text"] {
+  width: 230px;
+  margin: 0 0 10px 0;
+}
+
+.lh_tags {
+  padding: 8px 0 12px 0;
+  margin: 0 0 20px 0;
+  color: #4c4c4c;
+  font-size: .9em;
+  font-style: italic;
+  background: transparent url(/images/sidebar_ridge.png) bottom left repeat-x;  
+}
+
+.lh_tags span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0 10px 0 0;
+}
+
+
+.lighthouse_ticket_link {
+  display: block;
+  background: transparent url(/images/sidebar_ridge.png) bottom left repeat-x;  
+  padding: 5px 0 12px 0;
+  font-weight: bold;
+}
+
+.lighthouse_ticket_link .lh_ticket_number {
+  background: #153f5d url(/images/lighthouse_ticket_number.png) top left repeat-x;
+  padding: 4px 8px; 
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+}
+
+#content .lighthouse_ticket_link:hover {
+  text-decoration: none;
+  color: #153f5d;
+}
+
+#content .lighthouse_ticket_link:hover span {
+  background: #153f5d;
+}
+
+.ticket_explanation {
+  display: block;
+
+  font-style: italic;
+  font-size: .9em;
+  color: #4c4c4c;  
+}

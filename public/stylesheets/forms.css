@@ -1,0 +1,427 @@
+form {
+  padding: 10px 20px;
+  font-family: arial, helvetica, sans-serif;  
+}
+
+/* Design note - label width, .form_note paddin and checkbox padding need to be in sync */
+
+form input, 
+form label 
+{
+  vertical-align: middle;
+}
+
+form label {
+  margin: 0 0 2px 0;
+}
+
+form .required label {font-weight: bold;}
+
+
+form fieldset.projects label.checkbox {width: 385px; margin-left: 4px;}
+form fieldset.projects .select_all_checkboxes label.checkbox {width: 130px; margin-left: 4px;}
+
+
+form fieldset label {
+  width: 130px;
+  display: inline-block;
+  padding: 6px 5px 0 0;
+  text-align: right;
+  vertical-align: top;
+}
+
+form li {
+  margin: 0 0 10px 0;
+}
+
+#main input[type="text"],
+#main input[type="password"],
+form textarea { 
+  font-size: 1em;
+  font-family: arial, helvetica, sans-serif;	
+  width: 400px;
+  color: #474747;
+  display: inline;
+  padding: 3px 2px;
+  border-top: 1px solid #717171;
+  border-left: 1px solid #b4b4b4;
+  border-bottom: 1px solid #d9d9d9;
+  border-right: 1px solid #b4b4b4;
+  background: #fff url(/images/form_bg.png) top left repeat-x;
+}
+
+#main #account_subdomain,
+#main #account_lighthouse_subdomain {
+  width: 35%;
+  max-width: 200px;
+}
+
+li#account_subdomain_input,
+li#account_lighthouse_subdomain_input {
+  display: inline;
+}
+
+li#account_admin_user_attributes_name_input {
+  margin-top: 10px;
+}
+
+#content #main p.inline {
+  display: inline;
+  padding: 0;
+}
+
+#content #main p.inline-hints {
+  font-size: .85em;
+  color: #828282;
+  font-style: italic;
+  padding: 5px 0 0 135px;
+}
+
+#content #main p.inline-errors {
+  font-size: .85em;
+  color: #812121;
+  font-weight: bold;
+  padding: 3px 0 0 135px; 
+}
+
+#content #main .group {
+  margin: 20px 0;
+}
+
+#content #main .group p {
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+#content #main code {
+  font-size: 1.1em;
+}
+
+#main form li.error input[type="text"],
+#main form li.error input[type="password"]{
+  background: #fefce0 url(/images/form_bg_error.png) top left repeat-x;
+  
+}
+
+fieldset#indented  {
+  padding-left: 155px;
+}
+
+form textarea {width:400px;   padding: 3px 1px;}
+
+#main #site_keyword,
+#main #account_keyword {width: 200px;}
+
+#page_path_display {
+  background: #fff885;
+  color: #000;
+}
+
+/* Specific input widths */
+
+#main #site_keyword,
+#main #account_keyword {width: 200px;}
+
+
+#main #subscription_verification_value {
+  width: 50px;
+}
+
+/* Most general form styles */
+
+#main_content form ul li {
+  padding: 0;
+  border: 0;
+}
+
+div fieldset.inputs,
+div.form_info {
+    background: #f2f2f2;
+    padding: 20px 10px 10px 20px;
+    margin: 10px 0 20px 0;
+}
+
+div fieldset.inputs fieldset.inputs {
+  padding: 0;
+  madgin: 0;
+}
+
+#content #main div.form_info h3 {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+  padding: 0 0 5px 0;
+  margin: 0 0 5px 0;
+  background: transparent url(/images/sidebar_ridge.png) bottom left repeat-x;  
+}
+
+#content #main div.form_info p {padding: 4px 0;}
+
+#main input[type="text"],
+#main input[type="password"],
+form textarea { 
+  font-size: 1em;
+  font-family: arial, helvetica, sans-serif;	
+  width: 55%;
+  max-width: 400px;
+  color: #474747;
+  display: inline;
+  padding: 3px 1px;
+}
+
+fieldset.buttons .commit{
+  display: inline;
+}
+
+form textarea {width:400px;   padding: 3px 1px;}
+
+form fieldset label.required {
+   font-weight: bold;
+}
+
+#content #main  p.form_guide {
+  padding: 0 0 0 31px;
+  background: transparent url(/images/info.png) top left no-repeat;
+  line-height: 1.3;
+  min-height: 24px;
+}
+
+input[type="checkbox"] {vertical-align: middle; margin: 0; display: inline;}
+#content #main  label.checkbox {text-align: left; padding: 3px 0 0 0; vertical-align: middle;}
+#content #main  p.checkbox input {margin: 0; vertical-align: middle; }
+#content #main .checkbox label {display: inline; vertical-align: middle; padding: 1px 0 0 0; width: 350px; text-align: left;}
+
+.subdomain {
+  color: #95BE40;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#user_admin_input {
+  padding-bottom: 10px;
+  background: transparent url(/images/sidebar_ridge.png) bottom left repeat-x;
+  max-width: 400px;
+}
+
+form fieldset #user_admin_input label {
+  width: auto;
+}
+
+#content #main #user_admin_input p {
+  padding: 5px 0 0 0;
+  font-size: .85em;
+  color: #828282;
+  font-style: italic;
+}
+
+#content #main form .select_all_checkboxes {
+  background: #e4e4e4;
+  display: inline-block;
+  display: -moz-inline-box;
+  position: relative;
+  left: -8px;
+  padding: 4px 0 4px 8px;
+  border: 1px solid #d5d5d5;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;  
+}
+
+#content #main form .select_all_checkboxes:hover {
+  background: #fafafa;
+}
+
+form legend span {
+  font-weight: bold;
+  display: block;
+  padding: 0 0 20px 0;
+}
+
+#content #main #user_admin_input input {margin: 0 3px 0 0;}
+
+#current_api {
+  background: #f2f2f2;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#current_api label {
+  font-weight: bold;
+}
+
+#current_api  #api_key_value {
+  font-family: courier, monaco, monospace;
+  padding: 10px 0;
+}
+
+
+/* login page styles */
+
+
+.sessions #main form label,
+.reminder-new #main form label {
+  font-size: 1.1em;
+  color: #7a7a7a;
+  font-weight: normal;
+  vertical-align: middle;
+  display: block;
+  padding: 0 0 3px 0;
+  text-align: left;
+}
+
+.sessions #main input[type="text"],
+.sessions #main input[type="password"],
+.reminder-new #main input[type="text"],
+.reminder-new #main input[type="password"] {
+  font-size: 1.8em;
+  padding: 5px 4px;
+  width: 98%;
+  max-width: inherit;
+}
+
+.sessions #main #openid_identifier {
+  background-image:url(/images/openid.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  width: 93%;
+  max-width: inherit;
+}
+
+.sessions #content #main .buttons  input {margin: 0 10px 0 0;}
+
+.sessions #content #main form fieldset p,
+.reminder-new #content #main form fieldset p {
+  padding: 10px 0 0 0;
+  display: block;
+}
+
+.sessions #content #main p.checkbox {padding: 4px 0;}
+
+.sessions #content #main .buttons,
+.reminder-new #content #main .buttons {
+  padding: 20px 0 0 0;
+}
+
+#account_terms_of_service_input label,
+#project_resolve_errors_on_deploy_input label,
+#user_notify_by_email_input label {
+  width: auto;
+  padding-left: 135px;
+}
+
+#account_terms_of_service_input label input,
+#project_resolve_errors_on_deploy_input label input,
+#user_notify_by_email_input label input {
+  margin-right: 5px;
+}
+
+/* Special Styles */
+
+#content #main .installation_instructions {
+  padding-bottom: 14px;
+  background: url(/images/error-3d-bw.png) bottom left no-repeat;
+  margin: 30px 25px 0px 25px;
+}
+
+#content #main .installation_instructions h3 {
+  background: #333;
+  color: #FFF;
+  padding: 12px;
+  font-size: 1.3em;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#content #main   .installation_instructions ol {
+  padding: 12px;
+  background: #222;
+  color: #FFF;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+#content #main  .installation_instructions ol li {
+  margin-bottom: 1.5em;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+#content #main  .installation_instructions ol li.last {
+  margin-bottom: 0;
+}
+
+#content #main  .installation_instructions ol a,
+#content #main  .installation_instructions ol a:visited { 
+  color: #9F3;
+}
+#content #main   .installation_instructions pre {
+  padding: 4px;
+background: #334422 none repeat scroll 0 0;
+color:#99FF33;
+}
+
+.sessions form fieldset label{
+  width: 300px;
+}
+
+#billing_fields  fieldset {
+  margin-top: 4px;
+}
+
+#billing_fields  fieldset legend {
+  display: none;
+}
+
+#billing_fields h5 {
+  color: #6fb800;
+  font-size: 1.3em;
+  margin: 20px 0 5px 0;
+}
+
+#plan_reminder {
+  background-color:#E1F2C6;
+  color:#174500;
+  font-size:1.2em;
+  font-weight:bold;
+  text-align: center;
+  padding:10px;
+}
+
+
+fieldset.select-plan {
+  padding: 20px 0;
+}
+
+#content #main .errorExplanation {
+  background: #c1c1c1 url(/images/flash_success.png) top left repeat-x ;
+  color: #1f2223;
+  font-weight: bold;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  margin: 0 0 0px 0;
+  margin: 0 0 0px 0;
+  *margin: 0 0 10px 0; /*IE7*/
+}
+
+#content #main .errorExplanation p {
+  padding: 12px 16px 12px 36px;
+  font-size: 13px;
+  background: transparent url(/images/flash_info_icon.png) left center no-repeat;
+}
+
+#content #main .errorExplanation h2 {
+  display: none;
+}
+
+#content #main .errorExplanation ul {
+  margin-bottom: 10px;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+#content #main .errorExplanation ul li {
+  margin-left: 50px;
+  padding: 2px 0;
+  margin-bottom: 0;
+}
